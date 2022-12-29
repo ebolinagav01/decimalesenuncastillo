@@ -1,0 +1,280 @@
+<!doctype html>
+<html lang="es">
+<head>
+<link rel="stylesheet" type="text/css" href="base.css" />
+<link rel="stylesheet" type="text/css" href="content.css" />
+<link rel="stylesheet" type="text/css" href="nav.css" />
+<meta http-equiv="content-type" content="text/html;  charset=utf-8" />
+<title>Cuestionario | Decimales en un castillo </title>
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+<meta name="author" content="Elena Bolinaga Villanueva" />
+<link rel="license" type="text/html" href="http://creativecommons.org/licenses/by-nc-sa/4.0/" />
+<meta name="generator" content="eXeLearning 2.7 - exelearning.net" />
+<!--[if lt IE 9]><script type="text/javascript" src="exe_html5.js"></script><![endif]-->
+<script type="text/javascript" src="exe_jquery.js"></script>
+<script type="text/javascript" src="common_i18n.js"></script>
+<script type="text/javascript" src="common.js"></script>
+<link rel="stylesheet" type="text/css" href="scrambled-list.css" />
+<script type="text/javascript" src="scrambled-list.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+</head>
+<body class="exe-web-site" id="exe-node-7"><script type="text/javascript">document.body.className+=" js"</script>
+<div id="content">
+<p id="skipNav"><a href="#main" class="sr-av">Saltar la navegación</a></p>
+<header id="header" ><div id="headerContent">Decimales en un castillo</div></header>
+<nav id="siteNav">
+<ul>
+   <li><a href="index.html" class="daddy main-node">Proyecto 2ª Ev. - Decimales en un castillo</a></li>
+   <li><a href="introduccin.html" class="no-ch">Introducción</a></li>
+   <li><a href="descripcin.html" class="no-ch">Descripción</a></li>
+   <li class="current-page-parent"><a href="cmo_salir_del_saln.html" class="current-page-parent daddy">¿Cómo salir del salón?</a>
+   <ul>
+      <li><a href="guion_para_prepararse.html" class="daddy">Guion para prepararse</a>
+      <ul class="other-section">
+         <li><a href="buscar_informacin.html" class="no-ch">Buscar información</a></li>
+         <li><a href="rellenar_apuntes.html" class="no-ch">Rellenar apuntes</a></li>
+         <li><a href="actividades_para_practicar.html" class="no-ch">Actividades para practicar</a></li>
+      </ul>
+      </li>
+      <li id="active"><a href="cuestionario.html" class="active no-ch">Cuestionario</a></li>
+   </ul>
+   </li>
+   <li><a href="cmo_dar_con_el_nmero_del_pasillo.html" class="daddy">¿Cómo dar con el número del pasillo?</a>
+   <ul class="other-section">
+      <li><a href="qu_pasillo_vais_a_seguir.html" class="no-ch">¿Qué pasillo vais a seguir?</a></li>
+   </ul>
+   </li>
+   <li><a href="cmo_dar_con_la_contrasea.html" class="daddy">¿Cómo dar con la contraseña?</a>
+   <ul class="other-section">
+      <li><a href="cdigo_puerta_al_exterior.html" class="no-ch">Código puerta al exterior</a></li>
+   </ul>
+   </li>
+   <li><a href="final.html" class="no-ch">Final</a></li>
+</ul>
+</nav>
+<div id='topPagination'>
+<nav class="pagination noprt">
+<a href="actividades_para_practicar.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="cmo_dar_con_el_nmero_del_pasillo.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
+</nav>
+</div>
+<div id="main-wrapper">
+<section id="main">
+<header id="nodeDecoration"><h1 id="nodeTitle">Cuestionario</h1></header>
+<article class="iDevice_wrapper QuizTestIdevice em_iDevice em_iDevice_question" id="id16">
+<script type="text/javascript">/*<![CDATA[*/
+var numQuestions = 2;
+var rawScore = 0;
+var actualScore = 0;
+var question0;
+var question1;
+var key0 = 2;
+var key1 = 3;
+function getAnswer()
+        {
+            for (var i=0; i < 4; i++)
+            {
+               if (document.getElementById("quizForm16").key0b16[i].checked)
+               {
+                  question0 = document.getElementById("quizForm16").key0b16[i].value;
+                  break;
+               }
+            }
+            
+            for (var i=0; i < 4; i++)
+            {
+               if (document.getElementById("quizForm16").key1b16[i].checked)
+               {
+                  question1 = document.getElementById("quizForm16").key1b16[i].value;
+                  break;
+               }
+            }
+            }
+        function calcRawScore(){
+
+            if (question0 == key0)
+            {
+               rawScore++;
+            }
+            if (question1 == key1)
+            {
+               rawScore++;
+            }
+        
+        }
+        
+        function calcScore2()
+        {
+            getAnswer();
+     
+            calcRawScore();
+            actualScore =  Math.round(rawScore / numQuestions * 100);
+            var id = "16";
+            document.getElementById("quizForm"+id).submitB.disabled = true;
+            var s = document.getElementById("quizFormScore"+id);
+                        var msg_str ="Su puntuación es %d%%";            msg_str = msg_str.replace("%d",actualScore).replace("%%","%");            if (s) { s.innerHTML = "<div class='feedback'><p>"+msg_str+"</p></div>"; } else { alert(msg_str); }
+           
+        }
+    /*]]>*/</script>
+<div class="iDevice emphasis1" >
+<header class="iDevice_header"><h1 class="iDeviceTitle">Preguntas de la guardiana</h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<form name="quizForm16" id="quizForm16" action="#" class="quiz-test-form">
+<input type="hidden" name="passrate" id="passrate-16" value="50" />
+<section class="question">
+<h1 class="js-sr-av">Pregunta</h1>
+<div id="taquestion0b16" class="block iDevice_content">
+<p>¿En cuántas partes se divide cada unidad de la recta numérica para representar las centésimas?</p>
+</div>
+<section class="iDevice_answers">
+<h1 class="js-sr-av">Respuestas</h1>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key0b161" class="sr-av"><a href="#answer-key0b161">Opción 1</a></label><input type="radio" name="key0b16" id="key0b161" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key0b161">
+<div id="taoptionAnswer0q0b16" class="block iDevice_content">
+<p>1</p>
+</div>
+</div>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key0b162" class="sr-av"><a href="#answer-key0b162">Opción 2</a></label><input type="radio" name="key0b16" id="key0b162" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key0b162">
+<div id="taoptionAnswer1q0b16" class="block iDevice_content">
+<p>10</p>
+</div>
+</div>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key0b163" class="sr-av"><a href="#answer-key0b163">Opción 3</a></label><input type="radio" name="key0b16" id="key0b163" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key0b163">
+<div id="taoptionAnswer2q0b16" class="block iDevice_content">
+<p>100</p>
+</div>
+</div>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key0b164" class="sr-av"><a href="#answer-key0b164">Opción 4</a></label><input type="radio" name="key0b16" id="key0b164" value="3" />
+</p>
+<div class="iDevice_answer-content" id="answer-key0b164">
+<div id="taoptionAnswer3q0b16" class="block iDevice_content">
+<p>1000</p>
+</div>
+</div>
+</section>
+</section>
+</section>
+<section class="question">
+<h1 class="js-sr-av">Pregunta</h1>
+<div id="taquestion1b16" class="block iDevice_content">
+<p>¿Por dónde se empieza a comparar las cifras de los decimales para compararlos?</p>
+</div>
+<section class="iDevice_answers">
+<h1 class="js-sr-av">Respuestas</h1>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key1b161" class="sr-av"><a href="#answer-key1b161">Opción 1</a></label><input type="radio" name="key1b16" id="key1b161" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key1b161">
+<div id="taoptionAnswer0q1b16" class="block iDevice_content">
+<p>Por la cifra más alta.</p>
+</div>
+</div>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key1b162" class="sr-av"><a href="#answer-key1b162">Opción 2</a></label><input type="radio" name="key1b16" id="key1b162" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key1b162">
+<div id="taoptionAnswer1q1b16" class="block iDevice_content">
+<p>Por la cifra más baja.</p>
+</div>
+</div>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key1b163" class="sr-av"><a href="#answer-key1b163">Opción 3</a></label><input type="radio" name="key1b16" id="key1b163" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key1b163">
+<div id="taoptionAnswer2q1b16" class="block iDevice_content">
+<p>Por la derecha.</p>
+</div>
+</div>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key1b164" class="sr-av"><a href="#answer-key1b164">Opción 4</a></label><input type="radio" name="key1b16" id="key1b164" value="3" />
+</p>
+<div class="iDevice_answer-content" id="answer-key1b164">
+<div id="taoptionAnswer3q1b16" class="block iDevice_content">
+<p>Por la izquierda.</p>
+</div>
+</div>
+</section>
+</section>
+</section>
+<div class="block iDevice_buttons">
+<p><input type="submit" name="submitB" value="ENVIAR RESPUESTAS" /> <span class="js-hidden js-warning">Habilitar JavaScript</span></p>
+</div>
+<div id="quizFormScore16"></div>
+</form>
+</div>
+</div>
+</div>
+</article>
+<article class="iDevice_wrapper ScrambledListIdevice em_iDevice em_iDevice_activity" id="id17">
+<div class="iDevice emphasis1" >
+<header class="iDevice_header"><h1 class="iDeviceTitle">Ordena de menor a mayor</h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div id="ta17_122_2" class="block iDevice_content">
+<div class="exe-sortableList"><div class="exe-sortableList-instructions"><p>Ordena de menor a mayor los siguientes números decimales.</p></div><ul class="exe-sortableList-list"><li>99,89</li><li>99,9</li><li>99,955</li><li>99,965</li><li>99,97</li><li>99,99</li><li>100</li></ul><div style="display:none"><p class="exe-sortableList-buttonText">Comprobar</p><p class="exe-sortableList-rightText">¡Correcto!</p><p class="exe-sortableList-wrongText">No es correcto... Respuesta correcta:</p></div></div>
+</div>
+</div>
+</div>
+</div>
+</article>
+<article class="iDevice_wrapper ClozeIdevice em_iDevice em_iDevice_question" id="id19">
+<div class="iDevice emphasis1" >
+<header class="iDevice_header"><h1 class="iDeviceTitle">Rellena los huecos</h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<section id="ta19_116" class="block instructions iDevice_content">
+<p>Aproxima y completa:</p>
+</section>
+
+    <section class="activity" id="activity-19_117"><form name="cloze-form-19_117" action="#" class="activity-form cloze-activity-form"><div id="cloze19_117"><input type="hidden" name="clozeFlag19_117.strictMarking" id="clozeFlag19_117.strictMarking" value="false"/>
+<input type="hidden" name="clozeFlag19_117.checkCaps" id="clozeFlag19_117.checkCaps" value="false"/>
+<input type="hidden" name="clozeFlag19_117.instantMarking" id="clozeFlag19_117.instantMarking" value="false"/>
+<p>El número 5,659321 <strong>redondeado</strong> a las décimas es <label for="clozeBlank19_117.0" class="sr-av">Rellenar huecos (1):</label><input class="autocomplete-off" type="text" value="" id="clozeBlank19_117.0" style="width:3ch" /><span style="display:none" id="clozeAnswer19_117.0">JXUwMDZkJXUwMDE5JXUwMDFi
+</span> , a las centésimas <label for="clozeBlank19_117.1" class="sr-av">Rellenar huecos (2):</label><input class="autocomplete-off" type="text" value="" id="clozeBlank19_117.1" style="width:4ch" /><span style="display:none" id="clozeAnswer19_117.1">JXUwMDZkJXUwMDE5JXUwMDFhJXUwMDAw
+</span>  y a las milésimas <label for="clozeBlank19_117.2" class="sr-av">Rellenar huecos (3):</label><input class="autocomplete-off" type="text" value="" id="clozeBlank19_117.2" style="width:5ch" /><span style="display:none" id="clozeAnswer19_117.2">JXUwMDZkJXUwMDE5JXUwMDFhJXUwMDAzJXUwMDBj
+</span> .</p>
+<p>El número 5,659321 <strong>truncado</strong> a las décimas es <label for="clozeBlank19_117.3" class="sr-av">Rellenar huecos (4):</label><input class="autocomplete-off" type="text" value="" id="clozeBlank19_117.3" style="width:3ch" /><span style="display:none" id="clozeAnswer19_117.3">JXUwMDZkJXUwMDE5JXUwMDFh
+</span> , a las centésimas <label for="clozeBlank19_117.4" class="sr-av">Rellenar huecos (5):</label><input class="autocomplete-off" type="text" value="" id="clozeBlank19_117.4" style="width:4ch" /><span style="display:none" id="clozeAnswer19_117.4">JXUwMDZkJXUwMDE5JXUwMDFhJXUwMDAz
+</span> y a las milésimas <label for="clozeBlank19_117.5" class="sr-av">Rellenar huecos (6):</label><input class="autocomplete-off" type="text" value="" id="clozeBlank19_117.5" style="width:5ch" /><span style="display:none" id="clozeAnswer19_117.5">JXUwMDZkJXUwMDE5JXUwMDFhJXUwMDAzJXUwMDBj
+</span> .</p><div class="block iDevice_buttons"><p><input class="button" type="submit" name="submit19_117" value="Enviar"  id="submit19_117" />
+<input type="button" name="restart19_117" value="Reiniciar" style="display:none" id="restart19_117" onclick="$exe.cloze.restart('19_117')" />
+ <input type="button" name="19_117showAnswersButton" value="Mostrar las respuestas" style="display:none" id="showAnswersButton19_117" onclick="$exe.cloze.fillInputs('19_117')" />
+<span class="js-hidden js-warning">Habilitar JavaScript</span></p></div><div id="clozeScore19_117"></div></div></form></section></div>
+</div>
+</div>
+</article>
+<div id="packageLicense" class="cc cc-by-nc-sa">
+<p><span>Obra publicada con</span> <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Licencia Creative Commons Reconocimiento No comercial Compartir igual 4.0</a></p>
+</div>
+</section>
+</div>
+<div id='bottomPagination'>
+<nav class="pagination noprt">
+<a href="actividades_para_practicar.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="cmo_dar_con_el_nmero_del_pasillo.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
+</nav>
+</div>
+</div>
+<script type="text/javascript" src="_style_js.js"></script></body></html>
